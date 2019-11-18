@@ -7,7 +7,7 @@ Add provider to config/app.php
 use Lixr\Core\LixrUiServicProvider::class,
 ```
 
-Run artisan command to generate scaffold basic vue setup
+Run artisan command to generate scaffold basic vue setup (please install vue router & vuex before run this command)
 ```
 php artisan vue:setup
 ```
