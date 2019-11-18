@@ -4,7 +4,7 @@ namespace Lixr\Ui;
 
 use Illuminate\Support\ServiceProvider;
 
-class LixrCoreServicProvider extends ServiceProvider
+class LixrUiServicProvider extends ServiceProvider
 {
     
     public function register()
@@ -20,7 +20,8 @@ class LixrCoreServicProvider extends ServiceProvider
                 \Lixr\Ui\Commands\GenerateVueRoute::class,
                 \Lixr\Ui\Commands\VueGroup::class,
                 \Lixr\Ui\Commands\VueMenu::class,
-                \Lixr\Ui\Commands\VuexFetch::class
+                \Lixr\Ui\Commands\VuexFetch::class,
+                \Lixr\Ui\Commands\VueSetup::class
             ]);
         }
     }
