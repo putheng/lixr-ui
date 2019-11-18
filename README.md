@@ -31,6 +31,14 @@ const app = new Vue({
 });
 ```
 
+Re-compile
+```
+npm run dev
+```
+or
+```
+npm run watch
+```
 
 
 ## License
