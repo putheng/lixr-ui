@@ -15,14 +15,16 @@ php artisan vue:setup
 Add to application `app.js` bellow `require('./bootstrap');`
 ```
 require('./bootstrap');
-require('./index');
+require('./index'); // add this line
 ```
 
 Import vuex store and vue router to vue instance
 ```
-router: router, // add this line
-store: store, //add this line
-el: '#app',
+const app = new Vue({
+	router: router, // add this line
+	store: store, //add this line
+	el: '#app',
+});
 ```
 
 
